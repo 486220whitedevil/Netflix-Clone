@@ -189,7 +189,7 @@ input {
 
 .firstcontainer {
     margin-top: 50px;
-    color: white;
+    color: rgb(255,255,255);
     display: flex;
     justify-content: center;
     align-items: center;
