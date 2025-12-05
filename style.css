@@ -17,7 +17,6 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-
 }
 
 .main .box {
@@ -36,14 +35,12 @@ nav {
     display: flex;
     align-items: center;
     padding-top: 10px;
-    /* position: fixed; */
 }
 
 nav span img {
     width: 300px;
     position: relative;
     z-index: 10;
-
 }
 
 button {
@@ -83,24 +80,10 @@ button.sign {
     text-align: center;
 }
 
-/* .box .first {
-    font-family: unset;
-    font-size: 3.5rem;
-    font-weight: 900;
-    color: rgb(255, 255, 255);
-} */
-
 .box> :first-child {
     font-size: 3.2rem;
     font-weight: 900;
 }
-
-/* .box .second {
-    font-family: unset;
-    font-size: 1.25rem;
-    font-weight: 500;
-    margin: 1.5rem;
-} */
 
 .box> :nth-child(2) {
     font-weight: bold;
@@ -125,7 +108,6 @@ input {
     font-size: 1em;
     padding-left: 15px;
     color: white;
-
 }
 
 .getStarted {
@@ -140,24 +122,11 @@ input {
     min-width: 160px;
 }
 
-<<<<<<< HEAD
-/* .separation {
-    height: 8px;
-    width: 100%;
-    background-color: rgb(46, 46, 46);
-} */
-
 .separation {
     height: 100px;
     width: 100%;
     background: rgb(207, 53, 53);
     clip-path: ellipse(70% 100% at 50% 0%);
-=======
-.separation {
-    height: 8px;
-    width: 100%;
-    background-color: rgb(46, 46, 46);
->>>>>>> 15703849d6b74b361726f285a42c9d34d5c2680d
 }
 
 @media screen and (max-width: 600px) {
@@ -202,7 +171,6 @@ input {
 }
 
 .firstcontainer {
-<<<<<<< HEAD
     width: 100%;
     padding: 40px 0;
     color: white;
@@ -210,79 +178,31 @@ input {
     justify-content: center;
 }
 
-/* .cards {
-     .cards {
-    height: 350px;
-    width: 250px;
-    margin: 10px;
-    border-radius: 10px;
-    background-size: cover;
-    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/055/040/907/small/lush-green-tree-on-top-of-cliff-in-mountains-with-sun-rays-vertical-nature-background-generated-by-artificial-intelligence-photo.jpg");
-    margin: 10px;
- } 
-
-    /* float: left;
-=======
-    margin-top: 50px;
-    color: rgb(255,255,255);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.cards {
-    float: left;
->>>>>>> 15703849d6b74b361726f285a42c9d34d5c2680d
-    height: 350px;
-    width: 250px;
-    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/055/040/907/small/lush-green-tree-on-top-of-cliff-in-mountains-with-sun-rays-vertical-nature-background-generated-by-artificial-intelligence-photo.jpg");
-    margin: 10px;
-    border-radius: 10px;
-    object-fit: fill;
-<<<<<<< HEAD
-    background-repeat: no-repeat; 
-} */
-
 .cards {
     height: 350px;
     width: 250px;
     background-size: cover;
-    /* background-image: url("https://static.vecteezy.com/system/resources/thumbnails/055/040/907/small/lush-green-tree-on-top-of-cliff-in-mountains-with-sun-rays-vertical-nature-background-generated-by-artificial-intelligence-photo.jpg"); */
     background-position: center;
     margin: 10px;
     border-radius: 10px;
 }
 
-.cards img{
+.cards img {
     height: 350px;
     width: 250px;
     border-radius: 10px;
 }
-
 
 .movies {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
     margin-top: 30px;
-=======
-    background-repeat: no-repeat;
-}
-
-
-
-.movies {
-    display: flex;
-    margin: 15px;
->>>>>>> 15703849d6b74b361726f285a42c9d34d5c2680d
 }
 
 .scontainer {
     margin: 30px;
-<<<<<<< HEAD
     color: white;
-=======
->>>>>>> 15703849d6b74b361726f285a42c9d34d5c2680d
 }
 
 h2 {
@@ -291,7 +211,6 @@ h2 {
 }
 
 .gradient {
-<<<<<<< HEAD
     padding: 20px;
     background: linear-gradient(135deg, #192247 0%, #210e17 100%);
 }
@@ -307,11 +226,6 @@ h2 {
     font-size: 1rem;
 }
 
-/* .FAQ {
-    color: white;
-    width: 58%;
-    margin: auto;
-} */
 .FAQ {
     color: white;
     width: 90%;
@@ -319,52 +233,10 @@ h2 {
     margin: auto;
 }
 
-/* .questions {
-    margin-top: 20px;
-    width: 100%;
-    max-width: 1100px;
-=======
-    background-image: -webkit-repeating-linear-gradient(rgb(148, 97, 158), rgb(61, 106, 210));
-
-    border-radius: 10px;
-}
-
-.stext {
-    font-size: 1.5rem;
-    font-weight: 600;
-    margin: 20px;
-}
-
-.ttext {
-    margin: 20px;
-}
-
-.FAQ {
-    color: white;
-    width: 58%;
-    margin: auto;
-}
-
-.questions {
-    margin-top: 20px;
-    width: 1100px;
->>>>>>> 15703849d6b74b361726f285a42c9d34d5c2680d
-    height: 70px;
-    color: white;
-    background-color: rgb(48, 47, 47);
-    display: flex;
-    align-items: center;
-    padding-left: 25px;
-    font-size: 1.5rem;
-    font-weight: 400;
-
-<<<<<<< HEAD
-} */
 .questions {
     margin-top: 20px;
     width: 100%;
     max-width: 1100px;
-    height: auto;
     min-height: 70px;
     color: white;
     background-color: rgb(48, 47, 47);
@@ -377,13 +249,16 @@ h2 {
     border-radius: 5px;
     cursor: pointer;
 }
-.questions:hover{
+
+.questions:hover {
     background-color: rgb(100, 85, 85);
 }
 
-=======
+.questions svg {
+    color: white;
+    height: 40px;
+    width: 40px;
 }
->>>>>>> 15703849d6b74b361726f285a42c9d34d5c2680d
 
 .box2 {
     margin-top: 60px;
@@ -402,19 +277,6 @@ h2 {
     gap: 10px;
 }
 
-<<<<<<< HEAD
-/* .fcontent{
-    display: flex;
-    flex-direction: column;
-    height: auto;
-    width: 200px;
-    margin: 20px;
-    /* height: 350px;
-    width: 250px;
-    margin: 10px; 
-    border-radius: 10px;
-} */
-
 .fcontent {
     display: flex;
     flex-direction: column;
@@ -422,28 +284,9 @@ h2 {
     margin: 20px;
 }
 
-=======
-.fcontent{
-    display: flex;
-    flex-direction: column;
-    height: 350px;
-    width: 250px;
-    margin: 10px;
-    border-radius: 10px;
-}
->>>>>>> 15703849d6b74b361726f285a42c9d34d5c2680d
-a{
+a {
     color: rgb(182, 182, 182);
     margin: 10px;
-}
-
-<<<<<<< HEAD
-
-
-.questions svg{
-    color: white;
-    height: 40px;
-    width: 40px;
 }
 
 @media (max-width: 1024px) {
@@ -458,10 +301,10 @@ a{
 
 @media (max-width: 600px) {
     .movies {
-        grid-template-columns: repeat(1, 1fr); /* Stack cards */
+        grid-template-columns: repeat(1, 1fr);
     }
 
-    .scontainer h2, 
+    .scontainer h2,
     .tcontainer h2 {
         font-size: 1.6rem;
     }
@@ -470,7 +313,7 @@ a{
         height: 160px;
     }
 
-    .cln-box h2{
+    .cln-box h2 {
         font-size: 1.6rem;
     }
 
@@ -485,8 +328,4 @@ a{
     .ttext {
         font-size: 0.9rem;
     }
-=======
-.scontainer{
-    color: rgb(182, 182, 182);
->>>>>>> 15703849d6b74b361726f285a42c9d34d5c2680d
 }
